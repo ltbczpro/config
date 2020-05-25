@@ -23,8 +23,10 @@
     p = !git pull
     rbi = !git rebase -i
     ssh = !git stash
-    sshl = !git stash --list
-    sshp =!git stash pop
+    sshl = !git stash list
+    sshp = !git stash pop
+    sshd = !git stash drop
+    sshc = !git stash clear
     b = !git branch
     bc = !git branch -D
     graph = !git log --graph --decorate --oneline --color=always
